@@ -1,0 +1,84 @@
+body{
+   margin: 0px;
+   padding: 0px;
+    background-image: url(https://ozfoodnet.org.au/wp-content/uploads/2021/02/abs-1850926_1280.jpg);
+ color: white;
+ font-family: 'Baloo Bhai 2', cursive;
+ background-size:cover;
+
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+.left img{
+    width: 161px;
+    filter: invert(100%);
+}
+.left div{
+    text-align: center;
+    font-size: 20px;
+    line-height: 0px;
+}
+.mid{
+    width: 46%;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 30px 14px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration:underline;
+    color: grey
+}
+.btn{
+    background-color: black;
+    color: #fff;
+    padding:4px 12px;
+    font-size: 15px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Baloo Bhai 2', cursive;
+    margin-top: 16px;
+}
+.btn:hover{
+    background-color: gray;
+}
+.container{
+    width: 37%;
+    margin: 130px 32px;
+    border: 2px solid white;
+    border-radius: 24px;
+    padding: 48px 52px;
+}
+h1{
+    text-align: center;
+}
+.form-group input{
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+    display: block;
+    margin: 5px auto;
+    padding: 1px;
+    width: 432px;
+    border: 2px solid black;
+    font-size: 22px;
+    border-radius: 9px;
+}
+.container button{
+    display: block;
+    width: 432px;
+    margin: 32px auto;
+    font-size: 22px;
+}
